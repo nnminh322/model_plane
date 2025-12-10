@@ -1,0 +1,13 @@
+.git
+.gitignore
+*.pyc
+__pycache__/
+.vscode/
+.idea/
+*.log
+.env
+.DS_Store
+README.md
+docker-compose.yml
+*.swp
+*.tmp

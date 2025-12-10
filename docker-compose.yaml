@@ -1,0 +1,17 @@
+services:
+  dev_env:
+    build:
+      context: ./dev_env
+      dockerfile: Dockerfile
+    image: model_plane/dev_env:1.0
+    container_name: dev_env
+    ports:
+      - "2222:22"
+    environment:
+      - USER_NAME=admin
+      - SSH_PASS=admin123
+    volumes:
+      - ./workspaces:/workspaces
+      - ./data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped

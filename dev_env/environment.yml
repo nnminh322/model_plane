@@ -1,0 +1,14 @@
+name: dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - rich
+  - tqdm
