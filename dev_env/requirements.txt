@@ -1,0 +1,6 @@
+numpy==1.26.4
+pandas==2.2.2
+requests==2.31.0
+click==8.1.7
+ipykernel==6.29.3
+black==24.3.0  
